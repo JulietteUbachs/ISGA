@@ -1,0 +1,163 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+body {
+    margin: 50px;
+    overflow: hidden;
+    border: 1px solid black;
+    font-family: avenir;
+}
+
+h1{
+    color: #D1162F;
+    position: relative;
+    left: 30%;
+    display: inline-block;
+}
+
+.container{
+    width: 75%;
+    padding: 2em 0px 0px 3em;
+    margin-right: 80px;
+    
+}
+
+
+
+
+
+.readmore2, .readmore{
+    color: red;
+    text-align: center;
+    text-decoration: none;
+    margin: 0px 0px 0px 135px;
+}
+
+#schuingedrukt{
+    text-align: center;
+    font-style: italic;
+}
+
+.container{
+    width: 100%
+    
+}
+.menu ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color: #b2b1b1;
+    cursor: pointer;
+    
+}
+#textreadmore{
+    text-align: above;
+    font-weight: bold;
+    color: red;
+}
+
+.reviewbar{
+    width: 90%;
+    margin-left: 5%;
+}
+
+#pizza{
+    width: 100%;
+    /* padding: 2em; */
+    float: center;
+    /* margin-left: 40%; */
+    
+}
+
+.meer{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.meer p{
+    text-align: center;
+}
+
+.meer a{
+    color: #D1162F;
+    text-decoration: none;
+ 
+    /* margin-left: 35%; */
+
+}
+#backbutton{
+    width: 10%;
+    float: left;
+}
+#favorites{
+    width: 10%;
+    float: right;
+    margin-right: 1%;
+}
+#Isga{
+    color: #D1162F;
+    position: relative;
+    left: 40%;
+    display: inline-block;
+}
+
+
+.biografie p{
+    font-size: 0.8em;
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.biografie a{
+    text-decoration: none;
+    color: white;
+    background: red;
+    padding: 2px;
+    font-family: sans-serif, bold;
+}
+
+.biografie a:hover{
+    text-decoration: none;
+    color: white;
+    background: black;
+    padding: 2px;
+    font-family: sans-serif, bold;
+}
+.navimg{
+    height: 50px;
+    width: 50px;
+}
+.star{
+    width: calc(100% - 200px)
+}
+.heart{
+    width: 25px;
+    height: auto
+}
+.euro{
+height: 25px;
+    width:  auto;
+}
+.reviewbar2 img {
+    width: calc(100% - 26px);
+    height: auto;
+}
+
+.reviewbar2 {
+    display: flex;
+    justify-content: baseline;
+}
